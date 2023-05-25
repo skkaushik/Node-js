@@ -3,7 +3,7 @@ const data=[
         {
             name:'Sachin Kauhsik',
             Email:'skkaushik5092@gmail.com',
-            phone:9073848393,
+            phone:9073838393,
             gender:'Male'},
 
         {
