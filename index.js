@@ -1,6 +1,6 @@
-const http = require("http");
+const https = require("http");
 const data=require('./Data')
-http.createServer((req,resp)=>{
+https.createServer((req,resp)=>{
     resp.writeHead(200,{'Content-Type':'application\json'});
     resp.write(JSON.stringify(data));
     resp.end();
